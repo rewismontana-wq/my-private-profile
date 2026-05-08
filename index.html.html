@@ -17,7 +17,7 @@
 <body>
 
 <div class="loading-box">
-    <img id="logo-img" class="logo" src="" alt="icon">
+    <img id="logo-img" class="logo" src="" alt="icon" onerror="this.style.display='none'">
     <div id="theme-text" class="text">Connecting...</div>
     <p class="blink" style="font-size: 12px; color: #aaa;">Please wait a moment</p>
 </div>
@@ -25,10 +25,10 @@
 <script>
     // 1. DAFTAR TEMA (IKON & TEKS)
     const themes = [
-        { name: "WhatsApp", icon: "https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg", text: "Opening WhatsApp Chat...", color: "#075E54" },
-        { name: "TikTok", icon: "https://sf16-scmcdn-va.ibytedtos.com/goofy/tiktok/web/node/_next/static/images/logo-dark-e95da58a791391d55f771997dcca5838.png", text: "Opening TikTok Video...", color: "#000000" },
-        { name: "Tinder", icon: "https://worldvectorlogo.com/logos/tinder-2.svg", text: "Finding Your Match...", color: "#FD297B" },
-        { name: "OnlyFans", icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/OnlyFans_logo.svg/1024px-OnlyFans_logo.svg.png", text: "Loading Private Content...", color: "#00aff0" }
+        { name: "WhatsApp", icon: "https://cdn-icons-png.flaticon.com/512/733/733585.png", text: "Opening WhatsApp Chat...", color: "#075E54" },
+        { name: "TikTok", icon: "https://cdn-icons-png.flaticon.com/512/3046/3046121.png", text: "Opening TikTok Video...", color: "#010101" },
+        { name: "Tinder", icon: "https://cdn-icons-png.flaticon.com/512/2504/2504943.png", text: "Finding Your Match...", color: "#FD297B" },
+        { name: "OnlyFans", icon: "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/onlyfans.svg", text: "Loading Private Content...", color: "#00aff0" }
     ];
 
     // 2. PILIH RANDOM
